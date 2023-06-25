@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px 15px 0px;
+    font-weight: 600;
+    color: wheat;
+}

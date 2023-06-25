@@ -1,0 +1,29 @@
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    padding: 10px;
+    border: 1px solid rgb(129, 158, 185);
+    color: white;
+    background-color: rgb(43, 38, 38);
+    cursor: pointer;
+}
+
+.sorting-algorithm-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.bar-style {
+    border: 1px solid rgb(255, 255, 255);
+    margin: 2px;
+}
+
+.bars-style {
+    display: flex;
+    flex-direction: row;
+}
+
