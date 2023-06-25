@@ -18,12 +18,15 @@
 }
 
 .bar-style {
-    border: 1px solid rgb(255, 255, 255);
+    border: 2px solid rgb(111, 226, 88);
     margin: 2px;
 }
 
 .bars-style {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+
 }
 
