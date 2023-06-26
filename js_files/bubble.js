@@ -13,14 +13,18 @@ async function doBubbleSorting() {
         let transform2 = parseInt(secondBar.style.height);
   
         if (transform1 > transform2) {
-          firstBar.style.borderColor = "yellow";
-          secondBar.style.borderColor = "yellow";
+          firstBar.style.borderColor = "coral";
+          secondBar.style.borderColor = "coral";
   
           // Swap the heights by modifying the style attribute
           firstBar.style.height = transform2 + "px";
           secondBar.style.height = transform1 + "px";
   
           swapped = true;
+        }
+        else {
+            firstBar.style.borderColor = "coral";
+            secondBar.style.borderColor = "coral";
         } 
   
         await new Promise(resolve => setTimeout(resolve, 10));
@@ -33,12 +37,12 @@ async function doBubbleSorting() {
       await new Promise(resolve => setTimeout(resolve, 1));
   
       // Turn the previously sorted bar red again for the next iteration
-      bars[n - i - 1].style.borderColor = "darkgreen";
+      bars[n - i - 1].style.borderColor = "lime";
       bars[n - i - 1].style.transition = "border-color 0.5s";
     }
 
     for (i = 0; i < n; i++) {
-        bars[i].style.borderColor = "darkgreen";
+        bars[i].style.borderColor = "lime";
     }
     
   
