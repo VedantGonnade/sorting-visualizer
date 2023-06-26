@@ -5,6 +5,7 @@ function generateBars(){
     for (let i = 0; i < 100; i++) {
         const randomNumber = Math.floor(Math.random() * 100);
         const bar = document.createElement('div');
+        bar.id = 'bar-style-id-' + i;
         bar.classList.add('bar-style');
         bar.style.height = randomNumber * 5 + 'px';
         barsId.appendChild(bar);
