@@ -51,3 +51,6 @@ async function doBubbleSorting() {
   const bubbleSortButton = document.getElementById("bubble-sort-button");
   bubbleSortButton.addEventListener("click", doBubbleSorting);
   
+  getNewArrayCommand.addEventListener("click", () => {
+    location.reload();
+  });

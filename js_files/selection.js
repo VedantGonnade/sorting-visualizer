@@ -44,3 +44,6 @@ async function doSelectionSorting() {
   const selectionSortButton = document.getElementById("selection-sort-button");
   selectionSortButton.addEventListener("click", doSelectionSorting);
   
+  getNewArrayCommand.addEventListener("click", () => {
+    location.reload();
+  });

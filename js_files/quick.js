@@ -59,3 +59,6 @@ async function quickSort(arr, low, high) {
   const quickSortButton = document.getElementById("quick-sort-button");
   quickSortButton.addEventListener("click", doQuickSorting);
   
+  getNewArrayCommand.addEventListener("click", () => {
+    location.reload();
+  });

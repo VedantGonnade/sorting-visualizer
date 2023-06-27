@@ -44,3 +44,6 @@ async function doInsertionSorting() {
   const insertionSortButton = document.getElementById("insertion-sort-button");
   insertionSortButton.addEventListener("click", doInsertionSorting);
   
+  getNewArrayCommand.addEventListener("click", () => {
+    location.reload();
+  });

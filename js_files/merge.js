@@ -70,3 +70,6 @@ async function mergeSort(arr) {
   const mergeSortButton = document.getElementById("merge-sort-button");
   mergeSortButton.addEventListener("click", doMergeSorting);
   
+  getNewArrayCommand.addEventListener("click", () => {
+    location.reload();
+  });
