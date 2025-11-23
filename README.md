@@ -14,4 +14,5 @@ The project consists of 1 html file and all javscript files in js_files director
 - After creating a new array of bars, choose any of the algorithms you want to use to sort the array and the animation of sorting will start. 
 - After the sorting the complete, you can to create a new array of bars and then can choose any another algorithm.
 
+Project link: https://vedantgonnade.github.io/sorting-visualizer/
 
